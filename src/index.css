@@ -1,0 +1,56 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+.app {
+    margin-top: 22rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.app-image {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.app-image span {
+    font-size: 3rem;
+}
+
+.app-image img {
+    height: 8rem;
+    width: 8rem;
+}
+
+.app p {
+    font-size: 2rem;
+}
+
+.app button {
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    padding: 0.5rem 1.5rem;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.react-icon {
+    animation: rotate 5s infinite linear;
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
