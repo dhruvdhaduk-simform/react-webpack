@@ -1,5 +1,5 @@
 {
-    "name": "react-template-parcel",
+    "name": "react-template-webpack",
     "version": "1.0.0",
     "scripts": {
         "clean": "rm -rf dist",
